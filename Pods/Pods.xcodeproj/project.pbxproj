@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1264119FDBA85A5A305C288913BBC4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D4FE62878BA9561083B15BCD5C183D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C4D29CB5AD2A4F1E13C90B449DD8FCB7 /* Pods-HLUmengShareDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCF36121D898A654A1F8E28F868412 /* Pods-HLUmengShareDemoUITests-dummy.m */; };
+		D385CCC4FFB41FCC260EA5C21A3A485D /* Pods-HLUmengShareDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0622BAAF3D07FFBC84D78CAFEE66641C /* Pods-HLUmengShareDemoTests-dummy.m */; };
+		F26676A0F02EAB022976F6BAA9F50E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3FFA5EC8B4469D3F962B4B8E8F0E8BB /* Pods-HLUmengShareDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B675A6037BF56AD276944DE60C6BBDFC /* Pods-HLUmengShareDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0622BAAF3D07FFBC84D78CAFEE66641C /* Pods-HLUmengShareDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLUmengShareDemoTests-dummy.m"; sourceTree = "<group>"; };
+		07509642A1EC8B22296B81270D465A97 /* Pods-HLUmengShareDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		0AF8ABA4EF33DD070BAF88986B734E1C /* Pods-HLUmengShareDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLUmengShareDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1619DE78840BA78599B937A97D5CA88D /* libPods-HLUmengShareDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HLUmengShareDemoTests.a"; path = "libPods-HLUmengShareDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B487087D6938ABFA163EEDA97C87951 /* Pods-HLUmengShareDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		22DA23D31E936D1CF444A3CE6C1D6F5A /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialNetwork.framework; path = UShareSDK/UMSocialSDK/UMSocialNetwork.framework; sourceTree = "<group>"; };
+		28C77CCE57F0065A9674620CF77149C2 /* Pods-HLUmengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2ADF0B06BDCEFFBB2084F85341C84067 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UShareSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		2D2CF82659F6560A5DC8279C4FEA9464 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UShareSDK/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		2D8E4E4B3E552621A7CE59999059314B /* libPods-HLUmengShareDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HLUmengShareDemoUITests.a"; path = "libPods-HLUmengShareDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9F0965EAAFC7DEC46A12DB384B074F /* Pods-HLUmengShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3616542B0292A8097836F0F8B021EEF3 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UShareSDK/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		3703C89AA43CB0B50F18166D29AC457A /* Pods-HLUmengShareDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLUmengShareDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		571B1BABBF6CD50A499FE5B5E9CEC3F7 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKPromptResources.bundle; path = UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		5AB82DD3B4EB60D784D9D97CBF5E85CB /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UShareSDK/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		5FE57BD09465F378A5027EC0CA794531 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UShareSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		60CC8ACF3947E261084F6E8485DB234F /* Pods-HLUmengShareDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemoTests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6847F184C564862C7580ED9D1A3688C1 /* Pods-HLUmengShareDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6BE5DACB1AD8374543C36E55A1565257 /* Pods-HLUmengShareDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLUmengShareDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF3DB10F0F5B73F68D7CAC4B3D021F2 /* Pods-HLUmengShareDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		84A46B29F9E6327714AF79B5724C9F03 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UShareSDK/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		8FE51B1E9B49D7F39DEB4750B4CCCE3E /* Pods-HLUmengShareDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94080A06F9D2835FBA43AE10C011F540 /* Pods-HLUmengShareDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLUmengShareDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9489D43436D6B11265CA7E34680F20C6 /* Pods-HLUmengShareDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED6CC9CCE5568EC0B1415016B670AAC /* libUMSocialLog.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libUMSocialLog.a; path = UShareSDK/UMSocialSDKPlugin/libUMSocialLog.a; sourceTree = "<group>"; };
+		A32FB4574439A6DBD4EC602011657119 /* Pods-HLUmengShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B675A6037BF56AD276944DE60C6BBDFC /* Pods-HLUmengShareDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLUmengShareDemo-dummy.m"; sourceTree = "<group>"; };
+		BA0DBC8870F045EBC64956BCC25FFB13 /* Pods-HLUmengShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLUmengShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B8B98B2D8779E9E20E59C5B8B02D00 /* libPods-HLUmengShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HLUmengShareDemo.a"; path = "libPods-HLUmengShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F02D9C5EEC4555277DD7F03E484059 /* Pods-HLUmengShareDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLUmengShareDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF59D0E23962C628AD04E8D60C1DCAD5 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMSocialCore.framework; path = UShareSDK/UMSocialSDK/UMSocialCore.framework; sourceTree = "<group>"; };
+		D1FCF36121D898A654A1F8E28F868412 /* Pods-HLUmengShareDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLUmengShareDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		E3A5AF815452A6159FB7FDC04996A2A0 /* Pods-HLUmengShareDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLUmengShareDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E78CD2EDE3446DCA16D158985810A182 /* Pods-HLUmengShareDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLUmengShareDemo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D91AFB6ED536BEBEB07340347DC4816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1264119FDBA85A5A305C288913BBC4E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4840B690B8545C448C676E2E53A100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4FE62878BA9561083B15BCD5C183D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48E1338EB27A8C025A2A8DF30B7245C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26676A0F02EAB022976F6BAA9F50E53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FCDD3F7229FA692CBF2E8E4F3478D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ED6CC9CCE5568EC0B1415016B670AAC /* libUMSocialLog.a */,
+				CF59D0E23962C628AD04E8D60C1DCAD5 /* UMSocialCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E0F50EF517F60F314CDABF807F992F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ADF0B06BDCEFFBB2084F85341C84067 /* libSocialQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F4FB0C6924D5801DCCB5377BDA9E56A /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				77310CA939DB724E97D99B22A2B918BB /* ReducedQQ */,
+				32E4301728078D09289078C7B0A839E4 /* ReducedWeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		2675E6DD34CCC2AE53254CDD4D114039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE57BD09465F378A5027EC0CA794531 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E4301728078D09289078C7B0A839E4 /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				84A46B29F9E6327714AF79B5724C9F03 /* UMSocialWechatHandler.h */,
+				2675E6DD34CCC2AE53254CDD4D114039 /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		354726539685481E55347CBCD0078D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22DA23D31E936D1CF444A3CE6C1D6F5A /* UMSocialNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E03306706CD91DC6AA4F1EB2505E45B /* Pods-HLUmengShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0AF8ABA4EF33DD070BAF88986B734E1C /* Pods-HLUmengShareDemo-acknowledgements.markdown */,
+				3703C89AA43CB0B50F18166D29AC457A /* Pods-HLUmengShareDemo-acknowledgements.plist */,
+				B675A6037BF56AD276944DE60C6BBDFC /* Pods-HLUmengShareDemo-dummy.m */,
+				E78CD2EDE3446DCA16D158985810A182 /* Pods-HLUmengShareDemo-frameworks.sh */,
+				8FE51B1E9B49D7F39DEB4750B4CCCE3E /* Pods-HLUmengShareDemo-resources.sh */,
+				BA0DBC8870F045EBC64956BCC25FFB13 /* Pods-HLUmengShareDemo.debug.xcconfig */,
+				28C77CCE57F0065A9674620CF77149C2 /* Pods-HLUmengShareDemo.release.xcconfig */,
+			);
+			name = "Pods-HLUmengShareDemo";
+			path = "Target Support Files/Pods-HLUmengShareDemo";
+			sourceTree = "<group>";
+		};
+		4FCE41EA0E276EAE536882E1D9BAA421 /* Pods-HLUmengShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F02D9C5EEC4555277DD7F03E484059 /* Pods-HLUmengShareDemoUITests-acknowledgements.markdown */,
+				94080A06F9D2835FBA43AE10C011F540 /* Pods-HLUmengShareDemoUITests-acknowledgements.plist */,
+				D1FCF36121D898A654A1F8E28F868412 /* Pods-HLUmengShareDemoUITests-dummy.m */,
+				1B487087D6938ABFA163EEDA97C87951 /* Pods-HLUmengShareDemoUITests-frameworks.sh */,
+				7FF3DB10F0F5B73F68D7CAC4B3D021F2 /* Pods-HLUmengShareDemoUITests-resources.sh */,
+				A32FB4574439A6DBD4EC602011657119 /* Pods-HLUmengShareDemoUITests.debug.xcconfig */,
+				6847F184C564862C7580ED9D1A3688C1 /* Pods-HLUmengShareDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-HLUmengShareDemoUITests";
+			path = "Target Support Files/Pods-HLUmengShareDemoUITests";
+			sourceTree = "<group>";
+		};
+		550F8676947DB2957574A05500AD5DCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				571B1BABBF6CD50A499FE5B5E9CEC3F7 /* UMSocialSDKPromptResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77310CA939DB724E97D99B22A2B918BB /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				2D2CF82659F6560A5DC8279C4FEA9464 /* UMSocialQQHandler.h */,
+				0E0F50EF517F60F314CDABF807F992F4 /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C96FF02DE8A830E1485EB937A1FA06C6 /* Pods */,
+				A601F16404CCED0213059F8200FB6613 /* Products */,
+				92444CB6632328847CBD99F9F722FB9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCD60759CF0E42E3231905FC2027E30 /* UMengUShare */ = {
+			isa = PBXGroup;
+			children = (
+				D67E2F98A87772B3FCEE7BB0645923F0 /* Core */,
+				F608E585F4AE005B15608BABF52A9737 /* Network */,
+				0F4FB0C6924D5801DCCB5377BDA9E56A /* Social */,
+				BA42C1D02DC6DAE66B363D75D2CA6E23 /* UI */,
+			);
+			name = UMengUShare;
+			path = UMengUShare;
+			sourceTree = "<group>";
+		};
+		92444CB6632328847CBD99F9F722FB9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E03306706CD91DC6AA4F1EB2505E45B /* Pods-HLUmengShareDemo */,
+				96970DFD42522D21BA4AF054944AD422 /* Pods-HLUmengShareDemoTests */,
+				4FCE41EA0E276EAE536882E1D9BAA421 /* Pods-HLUmengShareDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96970DFD42522D21BA4AF054944AD422 /* Pods-HLUmengShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE5DACB1AD8374543C36E55A1565257 /* Pods-HLUmengShareDemoTests-acknowledgements.markdown */,
+				E3A5AF815452A6159FB7FDC04996A2A0 /* Pods-HLUmengShareDemoTests-acknowledgements.plist */,
+				0622BAAF3D07FFBC84D78CAFEE66641C /* Pods-HLUmengShareDemoTests-dummy.m */,
+				07509642A1EC8B22296B81270D465A97 /* Pods-HLUmengShareDemoTests-frameworks.sh */,
+				60CC8ACF3947E261084F6E8485DB234F /* Pods-HLUmengShareDemoTests-resources.sh */,
+				9489D43436D6B11265CA7E34680F20C6 /* Pods-HLUmengShareDemoTests.debug.xcconfig */,
+				2F9F0965EAAFC7DEC46A12DB384B074F /* Pods-HLUmengShareDemoTests.release.xcconfig */,
+			);
+			name = "Pods-HLUmengShareDemoTests";
+			path = "Target Support Files/Pods-HLUmengShareDemoTests";
+			sourceTree = "<group>";
+		};
+		A601F16404CCED0213059F8200FB6613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B8B98B2D8779E9E20E59C5B8B02D00 /* libPods-HLUmengShareDemo.a */,
+				1619DE78840BA78599B937A97D5CA88D /* libPods-HLUmengShareDemoTests.a */,
+				2D8E4E4B3E552621A7CE59999059314B /* libPods-HLUmengShareDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28952496DEBE8CE9A16DB1BE292DFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB82DD3B4EB60D784D9D97CBF5E85CB /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA42C1D02DC6DAE66B363D75D2CA6E23 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B28952496DEBE8CE9A16DB1BE292DFC9 /* Frameworks */,
+				BFA2466212044340DB7C0D294FDAEE11 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA2466212044340DB7C0D294FDAEE11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3616542B0292A8097836F0F8B021EEF3 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C96FF02DE8A830E1485EB937A1FA06C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD60759CF0E42E3231905FC2027E30 /* UMengUShare */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D67E2F98A87772B3FCEE7BB0645923F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				09FCDD3F7229FA692CBF2E8E4F3478D1 /* Frameworks */,
+				550F8676947DB2957574A05500AD5DCE /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F608E585F4AE005B15608BABF52A9737 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				354726539685481E55347CBCD0078D9C /* Frameworks */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2A28FDFFE6E1AA58CAD35AA2FD656A /* Pods-HLUmengShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B9FBABAC0D8506E8FAD6E708B76400 /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemoUITests" */;
+			buildPhases = (
+				88E6870B972D645CA245C83886D62E7C /* Sources */,
+				B4840B690B8545C448C676E2E53A100A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HLUmengShareDemoUITests";
+			productName = "Pods-HLUmengShareDemoUITests";
+			productReference = 2D8E4E4B3E552621A7CE59999059314B /* libPods-HLUmengShareDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E420E3DBD2D0BA42DB892FEAA2AF8DC /* Pods-HLUmengShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ED5C4DD78DFBBC6140E87DE3AACB83A /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemoTests" */;
+			buildPhases = (
+				A790C93DD26F713B6A358261868E0C92 /* Sources */,
+				3D91AFB6ED536BEBEB07340347DC4816 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HLUmengShareDemoTests";
+			productName = "Pods-HLUmengShareDemoTests";
+			productReference = 1619DE78840BA78599B937A97D5CA88D /* libPods-HLUmengShareDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFD3FF44F1C15A802804E9FD5AC9566A /* Pods-HLUmengShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA8755C11A677BB745D909291D65A93 /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemo" */;
+			buildPhases = (
+				34A418DC0FC65E20A1854A0827518253 /* Sources */,
+				D48E1338EB27A8C025A2A8DF30B7245C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HLUmengShareDemo";
+			productName = "Pods-HLUmengShareDemo";
+			productReference = C0B8B98B2D8779E9E20E59C5B8B02D00 /* libPods-HLUmengShareDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A601F16404CCED0213059F8200FB6613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD3FF44F1C15A802804E9FD5AC9566A /* Pods-HLUmengShareDemo */,
+				6E420E3DBD2D0BA42DB892FEAA2AF8DC /* Pods-HLUmengShareDemoTests */,
+				1B2A28FDFFE6E1AA58CAD35AA2FD656A /* Pods-HLUmengShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A418DC0FC65E20A1854A0827518253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FFA5EC8B4469D3F962B4B8E8F0E8BB /* Pods-HLUmengShareDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E6870B972D645CA245C83886D62E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D29CB5AD2A4F1E13C90B449DD8FCB7 /* Pods-HLUmengShareDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A790C93DD26F713B6A358261868E0C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D385CCC4FFB41FCC260EA5C21A3A485D /* Pods-HLUmengShareDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28F70AE3551D0F2CF05384AD05A1358F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6847F184C564862C7580ED9D1A3688C1 /* Pods-HLUmengShareDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		643B181C2933FB79AE1D071995CEA1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32FB4574439A6DBD4EC602011657119 /* Pods-HLUmengShareDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A9A237FBDC2589873BD56BCD5C1757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0DBC8870F045EBC64956BCC25FFB13 /* Pods-HLUmengShareDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		816AD40488B75214F59E50838467E0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9489D43436D6B11265CA7E34680F20C6 /* Pods-HLUmengShareDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F13A4839A18D780D3BA8C5703E47D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C77CCE57F0065A9674620CF77149C2 /* Pods-HLUmengShareDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F9EFAF7BDDA004DCC688548100EDDC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9F0965EAAFC7DEC46A12DB384B074F /* Pods-HLUmengShareDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B9FBABAC0D8506E8FAD6E708B76400 /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643B181C2933FB79AE1D071995CEA1E8 /* Debug */,
+				28F70AE3551D0F2CF05384AD05A1358F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA8755C11A677BB745D909291D65A93 /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9A237FBDC2589873BD56BCD5C1757E /* Debug */,
+				B2F13A4839A18D780D3BA8C5703E47D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ED5C4DD78DFBBC6140E87DE3AACB83A /* Build configuration list for PBXNativeTarget "Pods-HLUmengShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816AD40488B75214F59E50838467E0C0 /* Debug */,
+				F9EFAF7BDDA004DCC688548100EDDC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

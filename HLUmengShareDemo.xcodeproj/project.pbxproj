@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D7D8D56DA09E9BFE61D4BC /* libPods-HLUmengShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D686B690ECA9E29359D98596 /* libPods-HLUmengShareDemo.a */; };
+		770E72062B413DC3D71FC6D4 /* libPods-HLUmengShareDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49365EE2C9C0A5113C50BA3 /* libPods-HLUmengShareDemoUITests.a */; };
+		C6B38C3E4FE887714E4D9537 /* libPods-HLUmengShareDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFE6A2B9E03664F2645FFD /* libPods-HLUmengShareDemoTests.a */; };
+		F746F0BC1F20773100887B65 /* HLShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F0B71F20773100887B65 /* HLShareButton.m */; };
+		F746F0BD1F20773100887B65 /* HLShareBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F746F0B91F20773100887B65 /* HLShareBoard.m */; };
+		F746F0CE1F2077AD00887B65 /* copyUrl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C01F2077AD00887B65 /* copyUrl@2x.png */; };
+		F746F0CF1F2077AD00887B65 /* copyUrl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C11F2077AD00887B65 /* copyUrl@3x.png */; };
+		F746F0D01F2077AD00887B65 /* sinaweibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C21F2077AD00887B65 /* sinaweibo@2x.png */; };
+		F746F0D11F2077AD00887B65 /* sinaweibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C31F2077AD00887B65 /* sinaweibo@3x.png */; };
+		F746F0D21F2077AD00887B65 /* tcentkongjian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C41F2077AD00887B65 /* tcentkongjian@2x.png */; };
+		F746F0D31F2077AD00887B65 /* tcentkongjian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C51F2077AD00887B65 /* tcentkongjian@3x.png */; };
+		F746F0D41F2077AD00887B65 /* tcentQQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C61F2077AD00887B65 /* tcentQQ@2x.png */; };
+		F746F0D51F2077AD00887B65 /* tcentQQ@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C71F2077AD00887B65 /* tcentQQ@3x.png */; };
+		F746F0D61F2077AD00887B65 /* tcentWeibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C81F2077AD00887B65 /* tcentWeibo@2x.png */; };
+		F746F0D71F2077AD00887B65 /* tcentWeibo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0C91F2077AD00887B65 /* tcentWeibo@3x.png */; };
+		F746F0D81F2077AD00887B65 /* wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0CA1F2077AD00887B65 /* wechat@2x.png */; };
+		F746F0D91F2077AD00887B65 /* wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0CB1F2077AD00887B65 /* wechat@3x.png */; };
+		F746F0DA1F2077AD00887B65 /* wechatquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0CC1F2077AD00887B65 /* wechatquan@2x.png */; };
+		F746F0DB1F2077AD00887B65 /* wechatquan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F746F0CD1F2077AD00887B65 /* wechatquan@3x.png */; };
+		F7FD5A531F1F668700A1881F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5A521F1F668700A1881F /* main.m */; };
+		F7FD5A561F1F668700A1881F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5A551F1F668700A1881F /* AppDelegate.m */; };
+		F7FD5A591F1F668700A1881F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5A581F1F668700A1881F /* ViewController.m */; };
+		F7FD5A5C1F1F668700A1881F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FD5A5A1F1F668700A1881F /* Main.storyboard */; };
+		F7FD5A5E1F1F668700A1881F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FD5A5D1F1F668700A1881F /* Assets.xcassets */; };
+		F7FD5A611F1F668700A1881F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FD5A5F1F1F668700A1881F /* LaunchScreen.storyboard */; };
+		F7FD5A6C1F1F668700A1881F /* HLUmengShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5A6B1F1F668700A1881F /* HLUmengShareDemoTests.m */; };
+		F7FD5A771F1F668700A1881F /* HLUmengShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD5A761F1F668700A1881F /* HLUmengShareDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7FD5A681F1F668700A1881F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7FD5A461F1F668600A1881F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FD5A4D1F1F668700A1881F;
+			remoteInfo = HLUmengShareDemo;
+		};
+		F7FD5A731F1F668700A1881F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7FD5A461F1F668600A1881F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FD5A4D1F1F668700A1881F;
+			remoteInfo = HLUmengShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0421BDE733C93B7A2B84C1A1 /* Pods-HLUmengShareDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemoTests/Pods-HLUmengShareDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4E335456EF3BE52ACA5D30 /* Pods-HLUmengShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemoTests/Pods-HLUmengShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F5B228FD05D1E7C9D762A3A /* Pods-HLUmengShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemoUITests/Pods-HLUmengShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1EFE6A2B9E03664F2645FFD /* libPods-HLUmengShareDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLUmengShareDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E6992CDDB68AD125327E06 /* Pods-HLUmengShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemo/Pods-HLUmengShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D4AAB40184F0CFD36E276F47 /* Pods-HLUmengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemo/Pods-HLUmengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D686B690ECA9E29359D98596 /* libPods-HLUmengShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLUmengShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49365EE2C9C0A5113C50BA3 /* libPods-HLUmengShareDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLUmengShareDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29244A442EDDFCB155E0D58 /* Pods-HLUmengShareDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLUmengShareDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLUmengShareDemoUITests/Pods-HLUmengShareDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F746F0B61F20773100887B65 /* HLShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLShareButton.h; sourceTree = "<group>"; };
+		F746F0B71F20773100887B65 /* HLShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLShareButton.m; sourceTree = "<group>"; };
+		F746F0B81F20773100887B65 /* HLShareBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLShareBoard.h; sourceTree = "<group>"; };
+		F746F0B91F20773100887B65 /* HLShareBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLShareBoard.m; sourceTree = "<group>"; };
+		F746F0C01F2077AD00887B65 /* copyUrl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copyUrl@2x.png"; sourceTree = "<group>"; };
+		F746F0C11F2077AD00887B65 /* copyUrl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copyUrl@3x.png"; sourceTree = "<group>"; };
+		F746F0C21F2077AD00887B65 /* sinaweibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sinaweibo@2x.png"; sourceTree = "<group>"; };
+		F746F0C31F2077AD00887B65 /* sinaweibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sinaweibo@3x.png"; sourceTree = "<group>"; };
+		F746F0C41F2077AD00887B65 /* tcentkongjian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentkongjian@2x.png"; sourceTree = "<group>"; };
+		F746F0C51F2077AD00887B65 /* tcentkongjian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentkongjian@3x.png"; sourceTree = "<group>"; };
+		F746F0C61F2077AD00887B65 /* tcentQQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentQQ@2x.png"; sourceTree = "<group>"; };
+		F746F0C71F2077AD00887B65 /* tcentQQ@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentQQ@3x.png"; sourceTree = "<group>"; };
+		F746F0C81F2077AD00887B65 /* tcentWeibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentWeibo@2x.png"; sourceTree = "<group>"; };
+		F746F0C91F2077AD00887B65 /* tcentWeibo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tcentWeibo@3x.png"; sourceTree = "<group>"; };
+		F746F0CA1F2077AD00887B65 /* wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat@2x.png"; sourceTree = "<group>"; };
+		F746F0CB1F2077AD00887B65 /* wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechat@3x.png"; sourceTree = "<group>"; };
+		F746F0CC1F2077AD00887B65 /* wechatquan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechatquan@2x.png"; sourceTree = "<group>"; };
+		F746F0CD1F2077AD00887B65 /* wechatquan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wechatquan@3x.png"; sourceTree = "<group>"; };
+		F7FD5A4E1F1F668700A1881F /* HLUmengShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLUmengShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FD5A521F1F668700A1881F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7FD5A541F1F668700A1881F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7FD5A551F1F668700A1881F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7FD5A571F1F668700A1881F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7FD5A581F1F668700A1881F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7FD5A5B1F1F668700A1881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7FD5A5D1F1F668700A1881F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7FD5A601F1F668700A1881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7FD5A621F1F668700A1881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FD5A671F1F668700A1881F /* HLUmengShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLUmengShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FD5A6B1F1F668700A1881F /* HLUmengShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLUmengShareDemoTests.m; sourceTree = "<group>"; };
+		F7FD5A6D1F1F668700A1881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7FD5A721F1F668700A1881F /* HLUmengShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLUmengShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FD5A761F1F668700A1881F /* HLUmengShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLUmengShareDemoUITests.m; sourceTree = "<group>"; };
+		F7FD5A781F1F668700A1881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7FD5A4B1F1F668700A1881F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D7D8D56DA09E9BFE61D4BC /* libPods-HLUmengShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A641F1F668700A1881F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B38C3E4FE887714E4D9537 /* libPods-HLUmengShareDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A6F1F1F668700A1881F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770E72062B413DC3D71FC6D4 /* libPods-HLUmengShareDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1E9EE83452B68FA6F49F5C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E6992CDDB68AD125327E06 /* Pods-HLUmengShareDemo.debug.xcconfig */,
+				D4AAB40184F0CFD36E276F47 /* Pods-HLUmengShareDemo.release.xcconfig */,
+				0421BDE733C93B7A2B84C1A1 /* Pods-HLUmengShareDemoTests.debug.xcconfig */,
+				2A4E335456EF3BE52ACA5D30 /* Pods-HLUmengShareDemoTests.release.xcconfig */,
+				6F5B228FD05D1E7C9D762A3A /* Pods-HLUmengShareDemoUITests.debug.xcconfig */,
+				F29244A442EDDFCB155E0D58 /* Pods-HLUmengShareDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5DF8E72C6E16102B328C5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D686B690ECA9E29359D98596 /* libPods-HLUmengShareDemo.a */,
+				A1EFE6A2B9E03664F2645FFD /* libPods-HLUmengShareDemoTests.a */,
+				E49365EE2C9C0A5113C50BA3 /* libPods-HLUmengShareDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F746F0B51F20773100887B65 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F746F0B61F20773100887B65 /* HLShareButton.h */,
+				F746F0B71F20773100887B65 /* HLShareButton.m */,
+				F746F0B81F20773100887B65 /* HLShareBoard.h */,
+				F746F0B91F20773100887B65 /* HLShareBoard.m */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		F746F0BF1F2077AD00887B65 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F746F0C01F2077AD00887B65 /* copyUrl@2x.png */,
+				F746F0C11F2077AD00887B65 /* copyUrl@3x.png */,
+				F746F0C21F2077AD00887B65 /* sinaweibo@2x.png */,
+				F746F0C31F2077AD00887B65 /* sinaweibo@3x.png */,
+				F746F0C41F2077AD00887B65 /* tcentkongjian@2x.png */,
+				F746F0C51F2077AD00887B65 /* tcentkongjian@3x.png */,
+				F746F0C61F2077AD00887B65 /* tcentQQ@2x.png */,
+				F746F0C71F2077AD00887B65 /* tcentQQ@3x.png */,
+				F746F0C81F2077AD00887B65 /* tcentWeibo@2x.png */,
+				F746F0C91F2077AD00887B65 /* tcentWeibo@3x.png */,
+				F746F0CA1F2077AD00887B65 /* wechat@2x.png */,
+				F746F0CB1F2077AD00887B65 /* wechat@3x.png */,
+				F746F0CC1F2077AD00887B65 /* wechatquan@2x.png */,
+				F746F0CD1F2077AD00887B65 /* wechatquan@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F7FD5A451F1F668600A1881F = {
+			isa = PBXGroup;
+			children = (
+				F7FD5A501F1F668700A1881F /* HLUmengShareDemo */,
+				F7FD5A6A1F1F668700A1881F /* HLUmengShareDemoTests */,
+				F7FD5A751F1F668700A1881F /* HLUmengShareDemoUITests */,
+				F7FD5A4F1F1F668700A1881F /* Products */,
+				D1E9EE83452B68FA6F49F5C6 /* Pods */,
+				F5DF8E72C6E16102B328C5EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7FD5A4F1F1F668700A1881F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD5A4E1F1F668700A1881F /* HLUmengShareDemo.app */,
+				F7FD5A671F1F668700A1881F /* HLUmengShareDemoTests.xctest */,
+				F7FD5A721F1F668700A1881F /* HLUmengShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FD5A501F1F668700A1881F /* HLUmengShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F746F0BF1F2077AD00887B65 /* image */,
+				F746F0B51F20773100887B65 /* ActionSheet */,
+				F7FD5A541F1F668700A1881F /* AppDelegate.h */,
+				F7FD5A551F1F668700A1881F /* AppDelegate.m */,
+				F7FD5A571F1F668700A1881F /* ViewController.h */,
+				F7FD5A581F1F668700A1881F /* ViewController.m */,
+				F7FD5A5A1F1F668700A1881F /* Main.storyboard */,
+				F7FD5A5D1F1F668700A1881F /* Assets.xcassets */,
+				F7FD5A5F1F1F668700A1881F /* LaunchScreen.storyboard */,
+				F7FD5A621F1F668700A1881F /* Info.plist */,
+				F7FD5A511F1F668700A1881F /* Supporting Files */,
+			);
+			path = HLUmengShareDemo;
+			sourceTree = "<group>";
+		};
+		F7FD5A511F1F668700A1881F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD5A521F1F668700A1881F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7FD5A6A1F1F668700A1881F /* HLUmengShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD5A6B1F1F668700A1881F /* HLUmengShareDemoTests.m */,
+				F7FD5A6D1F1F668700A1881F /* Info.plist */,
+			);
+			path = HLUmengShareDemoTests;
+			sourceTree = "<group>";
+		};
+		F7FD5A751F1F668700A1881F /* HLUmengShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD5A761F1F668700A1881F /* HLUmengShareDemoUITests.m */,
+				F7FD5A781F1F668700A1881F /* Info.plist */,
+			);
+			path = HLUmengShareDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7FD5A4D1F1F668700A1881F /* HLUmengShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FD5A7B1F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemo" */;
+			buildPhases = (
+				1573F4ACC39458B29B0B2F01 /* [CP] Check Pods Manifest.lock */,
+				F7FD5A4A1F1F668700A1881F /* Sources */,
+				F7FD5A4B1F1F668700A1881F /* Frameworks */,
+				F7FD5A4C1F1F668700A1881F /* Resources */,
+				C229520C8C37A8DF9A38CD57 /* [CP] Embed Pods Frameworks */,
+				666DBC7FDCFB5AD8EE9644DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLUmengShareDemo;
+			productName = HLUmengShareDemo;
+			productReference = F7FD5A4E1F1F668700A1881F /* HLUmengShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7FD5A661F1F668700A1881F /* HLUmengShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FD5A7E1F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemoTests" */;
+			buildPhases = (
+				E1543B215C3999D363E8C789 /* [CP] Check Pods Manifest.lock */,
+				F7FD5A631F1F668700A1881F /* Sources */,
+				F7FD5A641F1F668700A1881F /* Frameworks */,
+				F7FD5A651F1F668700A1881F /* Resources */,
+				3A98F29589D08A4F463347CC /* [CP] Embed Pods Frameworks */,
+				E09378F528583D4B4D84876D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7FD5A691F1F668700A1881F /* PBXTargetDependency */,
+			);
+			name = HLUmengShareDemoTests;
+			productName = HLUmengShareDemoTests;
+			productReference = F7FD5A671F1F668700A1881F /* HLUmengShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7FD5A711F1F668700A1881F /* HLUmengShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FD5A811F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemoUITests" */;
+			buildPhases = (
+				AB497E1BABAB51670E73C2EE /* [CP] Check Pods Manifest.lock */,
+				F7FD5A6E1F1F668700A1881F /* Sources */,
+				F7FD5A6F1F1F668700A1881F /* Frameworks */,
+				F7FD5A701F1F668700A1881F /* Resources */,
+				9B95DE0791B12A7B9225A6A5 /* [CP] Embed Pods Frameworks */,
+				FFBCF9B356D10EDBC4FE6E46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7FD5A741F1F668700A1881F /* PBXTargetDependency */,
+			);
+			name = HLUmengShareDemoUITests;
+			productName = HLUmengShareDemoUITests;
+			productReference = F7FD5A721F1F668700A1881F /* HLUmengShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7FD5A461F1F668600A1881F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lizhaojie;
+				TargetAttributes = {
+					F7FD5A4D1F1F668700A1881F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KG69L5D77G;
+						ProvisioningStyle = Automatic;
+					};
+					F7FD5A661F1F668700A1881F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7FD5A4D1F1F668700A1881F;
+					};
+					F7FD5A711F1F668700A1881F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7FD5A4D1F1F668700A1881F;
+					};
+				};
+			};
+			buildConfigurationList = F7FD5A491F1F668600A1881F /* Build configuration list for PBXProject "HLUmengShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7FD5A451F1F668600A1881F;
+			productRefGroup = F7FD5A4F1F1F668700A1881F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7FD5A4D1F1F668700A1881F /* HLUmengShareDemo */,
+				F7FD5A661F1F668700A1881F /* HLUmengShareDemoTests */,
+				F7FD5A711F1F668700A1881F /* HLUmengShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7FD5A4C1F1F668700A1881F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F746F0D21F2077AD00887B65 /* tcentkongjian@2x.png in Resources */,
+				F746F0D51F2077AD00887B65 /* tcentQQ@3x.png in Resources */,
+				F746F0D81F2077AD00887B65 /* wechat@2x.png in Resources */,
+				F7FD5A611F1F668700A1881F /* LaunchScreen.storyboard in Resources */,
+				F746F0CF1F2077AD00887B65 /* copyUrl@3x.png in Resources */,
+				F746F0D71F2077AD00887B65 /* tcentWeibo@3x.png in Resources */,
+				F746F0D41F2077AD00887B65 /* tcentQQ@2x.png in Resources */,
+				F746F0CE1F2077AD00887B65 /* copyUrl@2x.png in Resources */,
+				F7FD5A5E1F1F668700A1881F /* Assets.xcassets in Resources */,
+				F746F0D91F2077AD00887B65 /* wechat@3x.png in Resources */,
+				F746F0D31F2077AD00887B65 /* tcentkongjian@3x.png in Resources */,
+				F746F0D11F2077AD00887B65 /* sinaweibo@3x.png in Resources */,
+				F746F0D01F2077AD00887B65 /* sinaweibo@2x.png in Resources */,
+				F746F0D61F2077AD00887B65 /* tcentWeibo@2x.png in Resources */,
+				F746F0DB1F2077AD00887B65 /* wechatquan@3x.png in Resources */,
+				F7FD5A5C1F1F668700A1881F /* Main.storyboard in Resources */,
+				F746F0DA1F2077AD00887B65 /* wechatquan@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A651F1F668700A1881F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A701F1F668700A1881F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1573F4ACC39458B29B0B2F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A98F29589D08A4F463347CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemoTests/Pods-HLUmengShareDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666DBC7FDCFB5AD8EE9644DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemo/Pods-HLUmengShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B95DE0791B12A7B9225A6A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemoUITests/Pods-HLUmengShareDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB497E1BABAB51670E73C2EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C229520C8C37A8DF9A38CD57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemo/Pods-HLUmengShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09378F528583D4B4D84876D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemoTests/Pods-HLUmengShareDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1543B215C3999D363E8C789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBCF9B356D10EDBC4FE6E46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLUmengShareDemoUITests/Pods-HLUmengShareDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7FD5A4A1F1F668700A1881F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FD5A591F1F668700A1881F /* ViewController.m in Sources */,
+				F7FD5A561F1F668700A1881F /* AppDelegate.m in Sources */,
+				F746F0BD1F20773100887B65 /* HLShareBoard.m in Sources */,
+				F7FD5A531F1F668700A1881F /* main.m in Sources */,
+				F746F0BC1F20773100887B65 /* HLShareButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A631F1F668700A1881F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FD5A6C1F1F668700A1881F /* HLUmengShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7FD5A6E1F1F668700A1881F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FD5A771F1F668700A1881F /* HLUmengShareDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7FD5A691F1F668700A1881F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7FD5A4D1F1F668700A1881F /* HLUmengShareDemo */;
+			targetProxy = F7FD5A681F1F668700A1881F /* PBXContainerItemProxy */;
+		};
+		F7FD5A741F1F668700A1881F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7FD5A4D1F1F668700A1881F /* HLUmengShareDemo */;
+			targetProxy = F7FD5A731F1F668700A1881F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7FD5A5A1F1F668700A1881F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FD5A5B1F1F668700A1881F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7FD5A5F1F1F668700A1881F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7FD5A601F1F668700A1881F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7FD5A791F1F668700A1881F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7FD5A7A1F1F668700A1881F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7FD5A7C1F1F668700A1881F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E6992CDDB68AD125327E06 /* Pods-HLUmengShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG69L5D77G;
+				INFOPLIST_FILE = HLUmengShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7FD5A7D1F1F668700A1881F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AAB40184F0CFD36E276F47 /* Pods-HLUmengShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG69L5D77G;
+				INFOPLIST_FILE = HLUmengShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7FD5A7F1F1F668700A1881F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0421BDE733C93B7A2B84C1A1 /* Pods-HLUmengShareDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLUmengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLUmengShareDemo.app/HLUmengShareDemo";
+			};
+			name = Debug;
+		};
+		F7FD5A801F1F668700A1881F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4E335456EF3BE52ACA5D30 /* Pods-HLUmengShareDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLUmengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLUmengShareDemo.app/HLUmengShareDemo";
+			};
+			name = Release;
+		};
+		F7FD5A821F1F668700A1881F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5B228FD05D1E7C9D762A3A /* Pods-HLUmengShareDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HLUmengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLUmengShareDemo;
+			};
+			name = Debug;
+		};
+		F7FD5A831F1F668700A1881F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29244A442EDDFCB155E0D58 /* Pods-HLUmengShareDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HLUmengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lizhaojie.HLUmengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLUmengShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7FD5A491F1F668600A1881F /* Build configuration list for PBXProject "HLUmengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FD5A791F1F668700A1881F /* Debug */,
+				F7FD5A7A1F1F668700A1881F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FD5A7B1F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FD5A7C1F1F668700A1881F /* Debug */,
+				F7FD5A7D1F1F668700A1881F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FD5A7E1F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FD5A7F1F1F668700A1881F /* Debug */,
+				F7FD5A801F1F668700A1881F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7FD5A811F1F668700A1881F /* Build configuration list for PBXNativeTarget "HLUmengShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7FD5A821F1F668700A1881F /* Debug */,
+				F7FD5A831F1F668700A1881F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7FD5A461F1F668600A1881F /* Project object */;
+}
